@@ -1,0 +1,128 @@
+body{
+    background-color: #fbfbfb;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+    padding: 0 1em;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #444;
+}
+
+nav{
+    width: 100%;
+    background-color: #fbfbfb;
+    position: fixed;
+    padding: 10px;
+    border-bottom: 1pix solid #ccc;
+}
+
+nav img{
+    margin-top: 10px;
+}
+
+.banner img{
+    width: 80%;
+}
+
+.banner{
+    text-align: center;
+}
+
+.img-produto{
+    width: 100%;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+.menu {
+    padding: 15px 25px;
+}
+
+.menu ul {
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #232323;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.menu li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 25px;
+}
+
+.produto {
+    margin-top: 15px;
+    padding: 15px;
+    transition: 0.8s;
+
+    min-height: 300px;
+}
+
+.produto:hover {
+    background-color: #e2b53a;
+    transition: 0.5s;
+}
+
+.foto {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.img-produto:hover {
+    transform: scale(1.5);
+    transition: 1.5s;
+}
+
+.nome-produto {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    padding: 5px 0;
+}
+
+.descricao {
+    height: 100px;
+    text-align: left;
+    font-size: 1.1rem;
+    overflow: hidden;
+}
+
+.preco {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+.btn {
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+footer {
+    height: 5px;
+    background-color: #232323;
+    color: #999999;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
